@@ -11,4 +11,15 @@ namespace jsBlocks {
     //% blockNamespace="game" group="Gameplay"
     //% blockAllowMultiple=1
     export function game_onPaint(a: () => void) { game.onPaint(a) }
+    
+    /**
+     * Returns the sign of a number.
+     * @param x A numeric expression.
+     */
+    //% blockId=mathsign block="sign %x"
+    //% x.shadow="math_number"
+    //% blockNamespace="math"
+    export function sign(x: number) {
+        return Math.sign(x)
+    }
 }
