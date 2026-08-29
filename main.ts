@@ -1,3 +1,6 @@
+/**
+ * Game transitions and dialog
+ **/
 namespace game {
     /**
      * Render the images of sprites
