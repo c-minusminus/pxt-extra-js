@@ -1,14 +1,14 @@
 /**
  * Game transitions and dialog
  **/
-namespace game {
+namespace jsBlocks {
     /**
      * Render the images of sprites
      * @param body code to execute
      */
-    //% group="Gameplay"
     //% help=game/paint weight=10 afterOnStart=true
     //% blockId=gamepaint block="on game paint"
+    //% blockNamespace="game" group="Gameplay"
     //% blockAllowMultiple=1
-    declare function onPaint(a: () => void): void
+    export function game_onPaint(a: () => void) { game.onPaint(a) }
 }
