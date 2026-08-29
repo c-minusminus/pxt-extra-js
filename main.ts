@@ -7,7 +7,7 @@ namespace jsBlocks {
      * @param body code to execute
      */
     //% help=game/paint weight=98 afterOnStart=true
-    //% blockId=gamepaintBlock block="on game paint3"
+    //% blockId=gamepaintBlock block="on game paint"
     //% blockNamespace="game" group="Gameplay"
     //% blockAllowMultiple=1
     export function game_onPaint(a: () => void) { game.onPaint(a) }
@@ -20,7 +20,6 @@ namespace Math {
      */
     //% weight=50
     //% blockId=mathsignBlock block="sign %x"
-    //% blockNamespace="math"
     export function signBlock(x: number) {
         return Math.sign(x)
     }
